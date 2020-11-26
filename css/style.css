@@ -1,0 +1,245 @@
+.icon-bar{
+	background-color: white;
+}
+
+/*Navigation*/
+
+.navbar{
+	background-color: #222222 !important;
+	text-transform: uppercase;
+	font-family: 'PT Sans Narrow',Arial,Sans-serif;
+	font-weight: 700;
+	font-size: 1.15em;
+}
+.judul{
+	font-size: 1.5em;
+	letter-spacing: 10px;
+}
+.navbar a {
+	color: #fff !important;
+	opacity: 0.5;
+}
+
+.navbar a:hover{
+	opacity: 1;
+	background-color: #111111 !important;
+}
+
+/*Header*/
+
+.header{
+	height: 633px;
+	width: 100%;
+	padding: 30px 0 30px;
+	margin-top: 50px;
+	background :linear-gradient(rgba(26,26,26,0.5),rgba(26,26,26,0.5)),url(../images/bgn.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	background-attachment: fixed;
+
+}
+
+.header img {
+	
+	margin: 0 0 0 200px;
+
+}
+.header h1 {
+	font-size: 40px;
+	font-weight: 700;
+	padding-top: 30px;
+	color: white;
+}
+.header p{
+	font-size: 20px;
+}
+.header h1,
+.header p,
+.header button {
+	margin-top: 20px;
+}
+.header .btn {
+	border-radius: 4;
+	background-color: #ff9216;
+	margin: 40px 20px;
+	text-align: center;
+}
+
+@media(max-width: 768px){
+	.header{
+		padding: 30px;
+		height: 750px;
+	}
+
+	.header img{
+		width: 90%;
+		height: 450px;
+		margin: 20px 0 0 20px;	
+	}
+	.header .btn{
+		font-size: 20px;
+		margin-left: 20px;
+
+	}
+	.header h1 {
+		font-size: 40px;
+	}
+	.header p {
+		font-size: 20px;
+	}
+}
+
+/*HOBBY*/
+
+.hobby{
+	padding-top: 30px;
+	paddding:80px 0 80px;
+	text-align: center;
+	position: relative;
+	background-color: white;
+	background-attachment:fixed;
+	
+}
+.hobby h2,h4{
+	color: #4c4c4c;
+	margin: 20px 0 20px;
+}
+.hobby p{
+	color: #737373;
+	font-size: 14px;
+	padding-bottom: 40px;
+}
+
+.hobby i {
+	height: 80px;
+	width: 80px;
+	font-size: 30px;
+	padding: 25px 20px;
+	border-radius: 50%;
+	background-color: black;
+	color: #fff;
+}
+p{
+	font-family: Pt Sans;
+}
+@media(max-width: 768px){
+	.hobby{
+		padding: 30px;
+	}
+}
+
+/*EDUCATION*/
+.education{
+	padding: 50px 0 80px;
+	text-align: center;
+	background :linear-gradient(rgba(26,26,26,0.5),rgba(26,26,26,0.5)),url(../images/bgn6.jpg);
+	position: relative;
+	background-attachment: fixed;
+}
+
+.education h2,p {
+	color:white;
+}
+.education p{
+	padding-bottom: 40px;
+}
+
+.education .pelajaran {
+	padding: 30px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	border-radius: 5px;
+	margin-top: 30px;
+}
+.pelajaran li{
+	display: block;
+	padding: 5px;
+}
+.pelajaran h4,h1,b{
+	color: #4c4c4c;
+}
+.pelajaran p,li{
+	color: #737373;
+}
+
+@media(max-width: 768px){
+	.education{
+		padding: 30px;
+	}
+	.pelajaran{
+		width: 80%;
+		margin-left: 25px;
+	}
+}
+
+
+/*FOOTER*/
+
+.contact {
+	padding: 20px;
+	color: #cccccc;
+	background-color:#222222;
+	background-attachment: fixed;	
+
+}
+.contact .lol{
+	font-family: 'Oxygen', sans-serif;
+	font-size: 20px;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	padding: 5px;
+	border: 1px solid #cccccc;
+	margin-bottom: 10px;
+	margin-right: 5px;
+}
+.contact input {
+	height: 40px;
+	width: 160px;
+	padding: 5px;
+	border: none;
+	background-color: #cccccc;
+	color: #000;
+}
+
+.contact .btn {
+	padding: 10px 5px 10px;
+	margin: -3px 0 0 5px;
+}
+.h4{
+
+	color: #cccccc;
+}
+
+/*Tachnochamp*/
+.technochamp{
+	padding: 25px;
+	text-align: center;
+	position: relative;
+	background-color: aqua;
+}
+div.apa{
+	background-color: aqua;
+}
+.h2{
+	text-align: center;
+	font-family: Baron Neue Black;
+	src:(../font/Baron Neue Black.otf);
+	margin-bottom: 40px;
+	}
+
+h1.judul{
+	font-family: Baron Neue Black;
+	src:(../font/Baron Neue Black.otf);
+	font-size: 50px;
+	}
+h2{
+	font-family: Baron Neue Black;
+	src:(../font/Baron Neue Black.otf);
+	}
+
+p{
+	font-family: Arial;
+}
